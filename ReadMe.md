@@ -1,7 +1,7 @@
 dotMTR Live
 =========================
-<hr>
-##ABOUT
+
+## ABOUT
 - dotMTR Live is a modern, graphically enhanced MTR implementation created for Windows.
 
 - dotMTR Live is written in C# for version 4.8 of the .NET Framework
