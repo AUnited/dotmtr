@@ -120,12 +120,13 @@
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>### ABOUT
 - dotMTR is a modern, graphically enhanced MTR implementation created for Windows.
-- dotMTR is written in C# for version 3.5 of the .NET Framework
+- dotMTR is written in C# for version 4.8 of the .NET Framework
 - dotMTR is copyright 2010 Nate McKay (natemckay@gmail.com)
-- dotMTR is free software, licensed under the GNU General Public License, version 2 (http://www.gnu.org/licenses/gpl-2.0.txt)
+- dotMTR is copyright 2021 Amvis United Co Ltd (https://sctools.cyou)
+- dotMTR is free software, licensed under the GNU General Public License, version 2 (https://www.gnu.org/licenses/gpl-2.0.html)
 
 ### RELEASE INFORMATION
-- Version 0.8.0 (released October 20, 2010)
+- Version 0.8.1 (released September 18, 2021)
 
 ### GENERAL INFORMATION
 - dotMTR can be called with the Windows /TraceDest= switch to populate a destination (i.e. dotMTR.exe /TraceDest=1.1.1.1)

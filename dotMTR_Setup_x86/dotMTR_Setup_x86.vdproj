@@ -105,11 +105,11 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\dotMTR_Setup_32-bit.msi"
+        "OutputFilename" = "8:Release\\dotMTR_Setup.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
-        "Compression" = "3:2"
+        "Compression" = "3:3"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
@@ -124,15 +124,15 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.4.8"
                     {
-                    "Name" = "8:.NET Framework 3.5"
-                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    "Name" = "8:.NET Framework 4.8"
+                    "ProductCode" = "8:Microsoft.Net.Framework.4.8"
                     }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.4.5"
                     {
-                    "Name" = "8:Windows Installer 3.1"
-                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    "Name" = "8:Windows Installer 4.5"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.4.5"
                     }
                 }
             }
@@ -146,7 +146,7 @@
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
-        "Compression" = "3:2"
+        "Compression" = "3:3"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
@@ -161,15 +161,15 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5.SP1"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.4.8"
                     {
-                    "Name" = "8:.NET Framework 3.5 SP1"
-                    "ProductCode" = "8:Microsoft.Net.Framework.3.5.SP1"
+                    "Name" = "8:.NET Framework 4.8"
+                    "ProductCode" = "8:Microsoft.Net.Framework.4.8"
                     }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.4.5"
                     {
-                    "Name" = "8:Windows Installer 3.1"
-                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    "Name" = "8:Windows Installer 4.5"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.4.5"
                     }
                 }
             }
@@ -416,7 +416,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_0D51FFABE1014F048EAB68F82DCEDBBA"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -453,24 +453,24 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:dotMTR"
-        "ProductCode" = "8:{EC82C1C8-8E8A-4213-AD3E-95C81C17A2BD}"
-        "PackageCode" = "8:{B3EEA273-2ED3-4E4B-A515-49D2926494AD}"
-        "UpgradeCode" = "8:{35356F31-C8D1-479B-A5EA-FF50B37DF8C7}"
+        "ProductCode" = "8:{37DF3FE1-E113-4F26-A9D2-57BF4BC6995A}"
+        "PackageCode" = "8:{00AF3A4E-1F71-48C8-A2F5-24C0F972CD65}"
+        "UpgradeCode" = "8:{05777412-97EA-4DAD-AC50-8FFA5011F028}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.8.0"
-        "Manufacturer" = "8:mcaai"
+        "ProductVersion" = "8:0.8.1"
+        "Manufacturer" = "8:aunited"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:https://sourceforge.net/p/dotmtr/home/"
+        "ARPHELPLINK" = "8:https://sctools.cyou/"
         "Title" = "8:dotMTR Setup (32-bit)"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Nate McKay"
         "Keywords" = "8:dotMTR MTR traceroute ping"
         "ARPCOMMENTS" = "8:dotMTR is a modern, graphically enhanced MTR implementation created for Windows."
-        "ARPURLINFOABOUT" = "8:https://sourceforge.net/p/dotmtr/home/"
+        "ARPURLINFOABOUT" = "8:https://sctools.cyou/"
         "ARPPRODUCTICON" = "8:_58B4A84F790A47F8AB422C8B71EB0FD5"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"

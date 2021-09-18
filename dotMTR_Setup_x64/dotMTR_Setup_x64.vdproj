@@ -124,15 +124,15 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.4.8"
                     {
-                    "Name" = "8:.NET Framework 3.5"
-                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    "Name" = "8:.NET Framework 4.8"
+                    "ProductCode" = "8:Microsoft.Net.Framework.4.8"
                     }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.4.5"
                     {
-                    "Name" = "8:Windows Installer 3.1"
-                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    "Name" = "8:Windows Installer 4.5"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.4.5"
                     }
                 }
             }
@@ -161,15 +161,15 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.4.8"
                     {
-                    "Name" = "8:.NET Framework 3.5"
-                    "ProductCode" = "8:Microsoft.Net.Framework.3.5"
+                    "Name" = "8:.NET Framework 4.8"
+                    "ProductCode" = "8:Microsoft.Net.Framework.4.8"
                     }
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.4.5"
                     {
-                    "Name" = "8:Windows Installer 3.1"
-                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    "Name" = "8:Windows Installer 4.5"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.4.5"
                     }
                 }
             }
@@ -416,7 +416,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_C1D5A00522FC4A8A9EE48E649CBE4AFA"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -453,24 +453,24 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:dotMTR"
-        "ProductCode" = "8:{E60FBDE8-F115-422E-8B93-40F2AB2995B2}"
-        "PackageCode" = "8:{D3B91793-823F-4587-A055-EAF9F86B05BE}"
-        "UpgradeCode" = "8:{61B29A37-FD27-4401-8F63-68EB3B273616}"
+        "ProductCode" = "8:{2E7A6B63-BCB4-4BE4-92C2-D1BD88401206}"
+        "PackageCode" = "8:{BA8D0430-88DE-491E-9287-D82FCDA4CE37}"
+        "UpgradeCode" = "8:{DE065F58-A262-49CE-A69A-5DA615F350F3}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:0.8.0"
-        "Manufacturer" = "8:mcaai"
+        "ProductVersion" = "8:0.8.1"
+        "Manufacturer" = "8:aunited"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:https://sourceforge.net/p/dotmtr/home/"
+        "ARPHELPLINK" = "8:https://sctools.cyou/"
         "Title" = "8:dotMTR Setup (64-bit)"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Nate McKay"
         "Keywords" = "8:dotMTR MTR traceroute ping"
         "ARPCOMMENTS" = "8:dotMTR is a modern, graphically enhanced MTR implementation created for Windows."
-        "ARPURLINFOABOUT" = "8:https://sourceforge.net/p/dotmtr/home/"
+        "ARPURLINFOABOUT" = "8:https://sctools.cyou/"
         "ARPPRODUCTICON" = "8:_07D211C2F5F44EF29E39A14E5CA87674"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
