@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31710.8
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotMTR", "dotMTR\dotMTR.csproj", "{90E16171-E7D9-40D3-B5D9-97EB322A7B15}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "dotMTR_Setup_x64", "dotMTR_Setup_x64\dotMTR_Setup_x64.vdproj", "{18EBF80E-D63C-459A-90DC-F632B1E798BC}"
@@ -8,10 +10,6 @@ EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "dotMTR_Setup_x86", "dotMTR_Setup_x86\dotMTR_Setup_x86.vdproj", "{D32DD041-17AF-4C66-8E05-6FAEA6AE799F}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -30,5 +28,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0C3E1F0-894D-4688-8CD0-D9EFB0375D85}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal

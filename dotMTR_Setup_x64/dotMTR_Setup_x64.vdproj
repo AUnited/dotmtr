@@ -21,13 +21,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_15194788476365F0331431E264B2EB19"
-        "OwnerKey" = "8:_64400BA659064E9AAF19D03E42FB744D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_63640E25C357D063828C3199E785CB32"
+        "MsmKey" = "8:_11205890962E7A67CD42D013C0CF1A09"
         "OwnerKey" = "8:_64400BA659064E9AAF19D03E42FB744D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,19 +39,25 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CB5D847E6DB5499A87650DDF0C8DAFF5"
+        "MsmKey" = "8:_9FCE8BC18B553A2B1D4D6BD08B10E26D"
         "OwnerKey" = "8:_64400BA659064E9AAF19D03E42FB744D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E4582FA0481ACF5C1BCF34B71EDE1088"
+        "MsmKey" = "8:_C8879DA9C6D370A52BE3252E305AE15E"
         "OwnerKey" = "8:_64400BA659064E9AAF19D03E42FB744D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EDCFCDC22488D3935B1E88B59092E3EF"
+        "MsmKey" = "8:_F6B5F539B442B05458EAD757EFF8B616"
+        "OwnerKey" = "8:_64400BA659064E9AAF19D03E42FB744D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FB7BA452D3A702D140C6F2865FC8DED9"
         "OwnerKey" = "8:_64400BA659064E9AAF19D03E42FB744D"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -70,31 +70,31 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EDCFCDC22488D3935B1E88B59092E3EF"
+        "OwnerKey" = "8:_9FCE8BC18B553A2B1D4D6BD08B10E26D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_63640E25C357D063828C3199E785CB32"
+        "OwnerKey" = "8:_FB7BA452D3A702D140C6F2865FC8DED9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_15194788476365F0331431E264B2EB19"
+        "OwnerKey" = "8:_F6B5F539B442B05458EAD757EFF8B616"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E4582FA0481ACF5C1BCF34B71EDE1088"
+        "OwnerKey" = "8:_11205890962E7A67CD42D013C0CF1A09"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CB5D847E6DB5499A87650DDF0C8DAFF5"
+        "OwnerKey" = "8:_C8879DA9C6D370A52BE3252E305AE15E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -194,7 +194,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "Version" = "8:3.5.21022"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.8"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=76617"
                 }
@@ -222,51 +222,20 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_15194788476365F0331431E264B2EB19"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_11205890962E7A67CD42D013C0CF1A09"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SourceGrid, Version=4.30.3817.19618, Culture=neutral, PublicKeyToken=df6f5e538749e85d, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:SmartThreadPool, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_15194788476365F0331431E264B2EB19"
+                    "_11205890962E7A67CD42D013C0CF1A09"
                     {
-                    "Name" = "8:SourceGrid.dll"
+                    "Name" = "8:SmartThreadPool.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:SourceGrid.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_C1D5A00522FC4A8A9EE48E649CBE4AFA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_63640E25C357D063828C3199E785CB32"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:TestApiCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=a069dee354d95f76, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_63640E25C357D063828C3199E785CB32"
-                    {
-                    "Name" = "8:TestApiCore.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:TestApiCore.dll"
+            "SourcePath" = "8:SmartThreadPool.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C1D5A00522FC4A8A9EE48E649CBE4AFA"
@@ -304,14 +273,45 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CB5D847E6DB5499A87650DDF0C8DAFF5"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9FCE8BC18B553A2B1D4D6BD08B10E26D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ZedGraph, Version=5.1.4.34931, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_9FCE8BC18B553A2B1D4D6BD08B10E26D"
+                    {
+                    "Name" = "8:ZedGraph.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:ZedGraph.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_C1D5A00522FC4A8A9EE48E649CBE4AFA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C8879DA9C6D370A52BE3252E305AE15E"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ProgressControls, Version=1.2.0.0, Culture=neutral, PublicKeyToken=f34d47135ea7baa5, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_CB5D847E6DB5499A87650DDF0C8DAFF5"
+                    "_C8879DA9C6D370A52BE3252E305AE15E"
                     {
                     "Name" = "8:ProgressControls.dll"
                     "Attributes" = "3:512"
@@ -335,20 +335,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E4582FA0481ACF5C1BCF34B71EDE1088"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F6B5F539B442B05458EAD757EFF8B616"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:SmartThreadPool, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:SourceGrid, Version=4.30.3817.19618, Culture=neutral, PublicKeyToken=df6f5e538749e85d, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E4582FA0481ACF5C1BCF34B71EDE1088"
+                    "_F6B5F539B442B05458EAD757EFF8B616"
                     {
-                    "Name" = "8:SmartThreadPool.dll"
+                    "Name" = "8:SourceGrid.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:SmartThreadPool.dll"
+            "SourcePath" = "8:SourceGrid.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C1D5A00522FC4A8A9EE48E649CBE4AFA"
@@ -366,20 +366,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_EDCFCDC22488D3935B1E88B59092E3EF"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FB7BA452D3A702D140C6F2865FC8DED9"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ZedGraph, Version=5.1.4.34931, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:TestApiCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=a069dee354d95f76, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_EDCFCDC22488D3935B1E88B59092E3EF"
+                    "_FB7BA452D3A702D140C6F2865FC8DED9"
                     {
-                    "Name" = "8:ZedGraph.dll"
+                    "Name" = "8:TestApiCore.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:ZedGraph.dll"
+            "SourcePath" = "8:TestApiCore.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C1D5A00522FC4A8A9EE48E649CBE4AFA"
@@ -454,8 +454,9 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:dotMTR"
         "ProductCode" = "8:{E60FBDE8-F115-422E-8B93-40F2AB2995B2}"
-        "PackageCode" = "8:{343894AC-B14F-4502-9121-26CF51FE0E81}"
+        "PackageCode" = "8:{D3B91793-823F-4587-A055-EAF9F86B05BE}"
         "UpgradeCode" = "8:{61B29A37-FD27-4401-8F63-68EB3B273616}"
+        "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
@@ -1194,7 +1195,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_64400BA659064E9AAF19D03E42FB744D"
             {
-            "SourcePath" = "8:..\\dotMTR\\obj\\Debug\\dotMTR.exe"
+            "SourcePath" = "8:..\\dotMTR\\obj\\Release\\dotMTR.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C1D5A00522FC4A8A9EE48E649CBE4AFA"
