@@ -197,7 +197,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Resources\gpl-2.0.rtf" />
-    <Content Include="ReadMe.md" />
     <Content Include="Resources\dotMTR.ico" />
     <Content Include="Resources\dotMTR.png" />
     <Content Include="Resources\gpl-2.0.txt">
